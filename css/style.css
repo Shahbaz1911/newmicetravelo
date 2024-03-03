@@ -213,6 +213,10 @@ pre {
 figure {
   margin: 0 0 1rem;
 }
+.logo{
+  height: 100px;
+  width: auto;
+}
 
 img {
   vertical-align: middle;
