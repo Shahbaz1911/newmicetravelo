@@ -38,7 +38,7 @@
       id="ftco-navbar"
     >
       <div class="container">
-        <img class="logo" src="../../images/FULL LOGO.png" alt="">
+        <img class="logo" src="../../images/FULL LOGO.png" alt="" />
         <!-- <a class="navbar-brand" href="../../index.html">MICE TRAVELO</a> -->
         <button
           class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
@@ -346,8 +346,42 @@
                 <!-- END TR-->
                 <tr>
                   <th scope="row">Maps</th>
+
                   <td>
-                    <div id="map"></div>
+                    <!-- <div id="map"></div> -->
+                    <div
+                      style="
+                        max-width: 100%;
+                        overflow: hidden;
+                        color: red;
+                        width: 1000px;
+                        height: 500px;
+                      "
+                    >
+                      <div
+                        id="google-maps-canvas"
+                        style="height: 100%; width: 100%; max-width: 100%"
+                      >
+                        <iframe
+                          style="height: 100%; width: 100%; border: 0"
+                          frameborder="0"
+                          src="https://www.google.com/maps/embed/v1/place?q=MICE+TRAVELO+EXPERTS+PVT+LTD+(Fame9),+Mangalam+Place,+Sector+3,+Rohini,+Delhi,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                        ></iframe>
+                      </div>
+                      <a
+                        class="googlecoder"
+                        rel="nofollow"
+                        href="https://www.bootstrapskins.com/themes"
+                        id="authmaps-data"
+                        >premium bootstrap themes</a
+                      ><style>
+                        #google-maps-canvas img {
+                          max-height: none;
+                          max-width: none !important;
+                          background: none !important;
+                        }
+                      </style>
+                    </div>
                   </td>
                 </tr>
                 <!-- END TR-->

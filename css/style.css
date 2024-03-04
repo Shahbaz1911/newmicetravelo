@@ -213,7 +213,7 @@ pre {
 figure {
   margin: 0 0 1rem;
 }
-.logo{
+.logo {
   height: 100px;
   width: auto;
 }
@@ -534,6 +534,13 @@ mark,
   font-size: 90%;
   color: #6c757d;
 }
+
+/* .background-clip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+} */
 
 code {
   font-size: 87.5%;
@@ -10520,7 +10527,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: #ffffff !important;
     position: relative;
     top: 0;
     padding-top: 0;
