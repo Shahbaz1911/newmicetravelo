@@ -5723,6 +5723,12 @@ a.badge-dark:focus {
   align-items: flex-start;
 }
 
+@media (min-width: 420px) {
+  .media {
+    padding-right: 50%;
+  }
+}
+
 .media-body {
   -webkit-box-flex: 1;
   -ms-flex: 1;
@@ -10567,7 +10573,7 @@ h5,
   padding-bottom: 0.7rem;
   padding-left: 20px;
   padding-right: 20px;
-  color: #000000;
+  color: white;
   font-weight: 400;
   opacity: 1 !important;
 }
@@ -10615,7 +10621,8 @@ h5,
     padding-right: 0;
     padding-bottom: 1rem;
     padding-top: 0;
-    color: #fff;
+    color: grey;
+    text-align: center;
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
@@ -10662,7 +10669,7 @@ h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: grey !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -11209,6 +11216,7 @@ h5,
 @media (max-width: 991.98px) {
   .slider-text h1 {
     font-size: 40px;
+    text-align: center;
   }
 }
 
@@ -11876,6 +11884,13 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden;
+}
+@media (max-width: 991.98px) {
+  .ftco-animate {
+    opacity: 0;
+    visibility: hidden;
+    padding-left: 35%;
+  }
 }
 
 .bg-primary {
