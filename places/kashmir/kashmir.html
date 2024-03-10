@@ -122,9 +122,9 @@
     <section class="ftco-section ftco-services-2 ftco-no-pt">
       <div class="container-fluid px-0 bg-light">
         <div class="container">
-          <div class="row tour py-5">
+          <div class="row tour py-5" id="py-6">
             <div class="col-md d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services text-center d-block">
+              <div id="clock" class="media block-6 services text-center d-block">
                 <div
                   class="icon justify-content-center align-items-center d-flex"
                 >
@@ -136,7 +136,7 @@
               </div>
             </div>
             <div class="col-md d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services text-center d-block">
+              <div id="person" class="media block-6 services text-center d-block">
                 <div
                   class="icon justify-content-center align-items-center d-flex"
                 >
@@ -148,19 +148,19 @@
               </div>
             </div>
             <div class="col-md d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services text-center d-block">
+              <div id="calendar"  class="media block-6 services text-center d-block">
                 <div
                   class="icon justify-content-center align-items-center d-flex"
                 >
                   <span class="flaticon-calendar"></span>
                 </div>
                 <div class="media-body">
-                  <h3 class="heading mb-3">DATE</h3>
+                  <h3 class="heading mb-3">24th May</h3>
                 </div>
               </div>
             </div>
             <div class="col-md d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services text-center d-block">
+              <div id="plane" class="media block-6 services text-center d-block">
                 <div
                   class="icon justify-content-center align-items-center d-flex"
                 >
@@ -174,7 +174,7 @@
               </div>
             </div>
             <div class="col-md d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services text-center d-block">
+              <div id="wallet" class="media block-6 services text-center d-block">
                 <div
                   class="icon justify-content-center align-items-center d-flex"
                 >
@@ -198,7 +198,7 @@
                   style="background-image: url(../../images/kashmir350.png)"
                 ></div>
               </div>
-              <div class="col-md-6 ftco-animate">
+              <div id="kashmir-center"  class="col-md-6 ftco-animate">
                 <div class="text py-5">
                   <h3><a href="#">EXPLORE KASHMIR</a></h3>
                   <p class="pos">6 Nights 5 Days</p>
@@ -236,7 +236,7 @@
               </h1>
               <div
                 id="collapseOne"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
@@ -731,7 +731,7 @@
 
                 <tr>
                   <th scope="row">Inclusion</th>
-                  <td class="d-flex">
+                  <td id="inclusion" class="d-flex">
                     <ul>
                       <li>Welcome Drinks</li>
                       <li>Accommodation</li>
@@ -749,7 +749,7 @@
 
                 <tr>
                   <th scope="row">Exclusion</th>
-                  <td class="d-flex">
+                  <td id="exclusion"  class="d-flex">
                     <ul>
                       <li>Anything not mentioned in inclusions</li>
                       <li>Any entry tickets</li>
@@ -809,142 +809,9 @@
             </table>
           </div>
           <div class="col-md-12 tour-wrap">
-            <div class="pt-5 mt-5">
-              <h3 class="mb-5">Reviews</h3>
-              <!-- <ul class="comment-list">
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img
-                      src="../../images/person_1.jpg"
-                      alt="Image placeholder"
-                    />
-                  </div>
-                  <div class="comment-body">
-                    <h3>Rohit</h3>
-                    <div class="meta">October 03, 2018 at 2:21pm</div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Pariatur quidem laborum necessitatibus, ipsam impedit
-                      vitae autem, eum officia, fugiat saepe enim sapiente iste
-                      iure! Quam voluptas earum impedit necessitatibus, nihil?
-                    </p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-                </li>
-
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img
-                      src="../../images/person_1.jpg"
-                      alt="Image placeholder"
-                    />
-                  </div>
-                  <div class="comment-body">
-                    <h3>Rohit</h3>
-                    <div class="meta">October 03, 2018 at 2:21pm</div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Pariatur quidem laborum necessitatibus, ipsam impedit
-                      vitae autem, eum officia, fugiat saepe enim sapiente iste
-                      iure! Quam voluptas earum impedit necessitatibus, nihil?
-                    </p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-
-                  <ul class="children">
-                    <li class="comment">
-                      <div class="vcard bio">
-                        <img
-                          src="../../images/person_1.jpg"
-                          alt="Image placeholder"
-                        />
-                      </div>
-                      <div class="comment-body">
-                        <h3>Rohit</h3>
-                        <div class="meta">October 03, 2018 at 2:21pm</div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Pariatur quidem laborum necessitatibus, ipsam
-                          impedit vitae autem, eum officia, fugiat saepe enim
-                          sapiente iste iure! Quam voluptas earum impedit
-                          necessitatibus, nihil?
-                        </p>
-                        <p><a href="#" class="reply">Reply</a></p>
-                      </div>
-
-                      <ul class="children">
-                        <li class="comment">
-                          <div class="vcard bio">
-                            <img
-                              src="../../images/person_1.jpg"
-                              alt="Image placeholder"
-                            />
-                          </div>
-                          <div class="comment-body">
-                            <h3>Rohit</h3>
-                            <div class="meta">October 03, 2018 at 2:21pm</div>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit. Pariatur quidem laborum
-                              necessitatibus, ipsam impedit vitae autem, eum
-                              officia, fugiat saepe enim sapiente iste iure!
-                              Quam voluptas earum impedit necessitatibus, nihil?
-                            </p>
-                            <p><a href="#" class="reply">Reply</a></p>
-                          </div>
-
-                          <ul class="children">
-                            <li class="comment">
-                              <div class="vcard bio">
-                                <img
-                                  src="../../images/person_1.jpg"
-                                  alt="Image placeholder"
-                                />
-                              </div>
-                              <div class="comment-body">
-                                <h3>Rohit</h3>
-                                <div class="meta">
-                                  October 03, 2018 at 2:21pm
-                                </div>
-                                <p>
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipisicing elit. Pariatur quidem laborum
-                                  necessitatibus, ipsam impedit vitae autem, eum
-                                  officia, fugiat saepe enim sapiente iste iure!
-                                  Quam voluptas earum impedit necessitatibus,
-                                  nihil?
-                                </p>
-                                <p><a href="#" class="reply">Reply</a></p>
-                              </div>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="comment">
-                  <div class="vcard bio">
-                    <img
-                      src="../../images/person_1.jpg"
-                      alt="Image placeholder"
-                    />
-                  </div>
-                  <div class="comment-body">
-                    <h3>Rohit</h3>
-                    <div class="meta">October 03, 2018 at 2:21pm</div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Pariatur quidem laborum necessitatibus, ipsam impedit
-                      vitae autem, eum officia, fugiat saepe enim sapiente iste
-                      iure! Quam voluptas earum impedit necessitatibus, nihil?
-                    </p>
-                    <p><a href="#" class="reply">Reply</a></p>
-                  </div>
-                </li>
-              </ul> -->
-              <!-- END comment-list -->
+            <!-- <div class="pt-5 mt-5"> -->
+              <!-- <h3 class="mb-5">Reviews</h3> -->
+          
 
               <div class="comment-form-wrap pt-5">
                 <h3 class="mb-5">Leave a comment</h3>
@@ -981,7 +848,7 @@
                   </div>
                 </form>
               </div>
-            </div>
+            <!-- </div> -->
           </div>
         </div>
       </div>

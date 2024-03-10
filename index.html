@@ -18,12 +18,19 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
-    
     <link rel="stylesheet" href="css/flaticon.css">
+    
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	<section class="video-section" >
+		
+				<video  class="back-video"   poster="video/video_slider3.png" playsinline autoplay muted loop>
+					<source src="video/330149744544.mp4" type="video/mp4">
+				</video>
+				
+			    
 	
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
@@ -37,14 +44,14 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#video-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item" style="padding-top: 3px;"><span>
 				 <div class="dropdown">
-  <a class="nav-link" class=" btn dropdown-toggle" style="border: 0px;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a class="nav-link" id="ut" class=" btn dropdown-toggle" style="border: 0px;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Upcoming Tours
   </a>
 
-  <ul class="dropdown-menu">
+  <ul id="upcomingdropdown" style="color: black;"  class="dropdown-menu ">
 	                            <li><a href="#">January</a></li>
 								<li><a href="#">February</a></li>
 								<li><a href="./places/somnath/somnath.html">March</a></li>
@@ -60,7 +67,7 @@
   
   </ul>
 </div>
-			  </span></a></li>
+			  </span></li>
 			 
 			 
 			  
@@ -68,8 +75,7 @@
 	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 	          <li class="nav-item"><a href="#destination-section" class="nav-link"><span>Destination</span></a></li>
-	          <!-- <li class="nav-item"><a href="#hotel-section" class="nav-link"><span>Hotel</span></a></li> -->
-	          <!-- <li class="nav-item"><a href="#restaurant-section" class="nav-link"><span>Restaurant</span></a></li> -->
+			  
 	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 	        </ul>
@@ -77,19 +83,26 @@
 	    </div>
 	  </nav>
 	  
+	  <nav class="navbar bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="images/FULL LOGO.png" alt="Bootstrap" width="30" height="24">
+    </a>
+  </div>
+</nav>
+	  <div class="content">
+					<h1>FIND YOUR SPECIAL TOUR TODAY</h1>
+					<!-- <h2>WITH MICE TRAVELO</h2> -->
+					<a href="#Upcoming-Tours" class="btn ">VIEW TOURS </a>
+				</div>
+
+  </section>
+	
+	  
 	  <section id="home-section" class="hero">
 		<div>
 			<!-- <video autoplay loop muted plays-inline class="background-clip" src="video/330149744544.mp4"></video>-->
-				<div class="wrapper-bg-video">
-				<video width="100%";height="400px" poster="video/video_slider3.png" playsinline autoplay muted loop>
-					<source src="video/330149744544.mp4" type="video/mp4">
-				</video>
-				<!-- <div class="content-slider">
-					<p>FIND YOUR SPECIAL TOUR TODAY</p>
-					<h2>WITH MICE TRAVELO</h2>
-					<p><a href="#" class="btn btn-slider">VIEW TOURS </a></p>
-				</div> -->
-			</div>
+				
 			<!-- <img src="images/blob-shape-3.svg" class="svg-blob" alt="Colorlib Free Template"> -->
 		  <div class="home-slider owl-carousel">
 	      <div class="slider-item">
@@ -261,7 +274,7 @@
             <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
           </div>
         </div>
-        <div class="row">
+        <div class="row" id="row-services">
         	<div class="col-md d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services text-center d-block">
               <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-gliding"></span></div>
@@ -273,7 +286,7 @@
           </div>
           <div class="col-md d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services text-center d-block">
-              <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-world"></span></div>
+              <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-tour-guide"></span></div>
               <div class="media-body">
                 <h3 class="heading mb-3">Value for Money</h3>
                 <p>Mice Travelo big agency buying power means fantastic value deals for you</p>
@@ -282,7 +295,7 @@
           </div>
           <div class="col-md d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services text-center d-block">
-              <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-tour-guide"></span></div>
+              <div class="icon justify-content-center align-items-center d-flex"><span class=" flaticon-world"></span></div>
               <div class="media-body">
                 <h3 class="heading mb-3">Beautiful Places</h3>
                 <p>Enables these specialists to design truly remarkable travel experiences.</p>
@@ -306,7 +319,7 @@
     	<div class="container">
     		<div class="row no-gutters d-flex">
     			<div class="col-md-6 col-lg-5 d-flex">
-    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/Office/4.jpg);">
+    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/office/office-2.webp);">
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-7 px-lg-5 py-md-5 bg-darken">
@@ -346,12 +359,12 @@
     	<div class="container">
     		<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
-          	<span class="subheading">Best Destination</span>
+          	<!-- <span class="subheading">Best Destination</span> -->
             <h2 class="mb-4">Upcoming Tours 2024</h2>
-            <p> We encourage to travel, learn, and discover new things. Explore the unique treasures that the fun-filled lifetime adventures have to give you. Onboard the journey that allows you to make new friends and enable you to discover yourself.</p>
+            <p class="para"> We encourage to travel, learn, and discover new things. Explore the unique treasures that the fun-filled lifetime adventures have to give you. Onboard the journey that allows you to make new friends and enable you to discover yourself.</p>
           </div>
         </div>
-    		<div class="row">
+    		<div class="row" id="places">
     			<div class="col-md-6 col-lg-4 ftco-animate">
     				<div class="project">
     					<div class="img">
@@ -969,14 +982,14 @@
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">Contact</span>
-            <h2 class="mb-4">Contact Me</h2>
+            <!-- <span class="subheading">Contact</span> -->
+            <h2 class="mb-4">Contact Us</h2>
             <p>Best travel Agency in India Award Winning Agency</p>
           </div>
         </div>
 
         <div class="row block-9">
-          <div class="col-md-7 order-md-last d-flex">
+          <div class="col-md-7 order-md-last d-flex" id="form">
             <form action="#" class="bg-light p-4 p-md-5 contact-form">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Name">
@@ -1059,25 +1072,42 @@
         </div>
       </div>
     </section>
-	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<!-- <section class="ftco-section contact-section ftco-no-pb" id="office-section">
       
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
             
-            <h2 class="mb-4">Address</h2>
-            <p>Best travel Agency in India</p>
+            <h1 class="mb-4">Office</h1>
+        
           </div>
         </div>
-		 <!-- <div
-                          id="google-maps-canvas"
-                            style="height: 200%; width: 100%; max-width: 100%">
-                            <iframe
-                              style="height: 100%; width: 100%; border: 0"
-                              frameborder="0"
-                              src="https://www.google.com/maps/embed/v1/place?q=MICE+TRAVELO+EXPERTS+PVT+LTD+(Fame9),+Mangalam+Place,+Sector+3,+Rohini,+Delhi,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-                          </div> -->
-
-       
+		<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/office/office-2.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/office/office-1.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/office/office-3.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+		
+      
+    </section>
+		 -->
+	<section class="ftco-section contact-section ftco-no-pb" id="location-section">
+      
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            
+            <h1 class="mb-4">Location</h1>
+            <!-- <p>Best travel Agency in India</p> -->
+          </div>
+        </div>
+		
       
     </section>
 	<div style="text-decoration:none; overflow:hidden;max-width:100%;width:1600px;height:600px;"><div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=MICE+TRAVELO+EXPERTS+PVT+LTD+(Fame9),+Mangalam+Place,+Sector+3,+Rohini,+Delhi,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-code-enabler" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a><style>#embed-ded-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
@@ -1201,9 +1231,9 @@
         <div class="row">
           <div class="col-md-12 text-center">
 	
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |  <a href="#home-section" target="_blank">MICE TRAVELO</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All Rights Reserved |  <a href="#home-section" target="_blank">MICE TRAVELO</a>
+  </p>
           </div>
         </div>
       </div>
