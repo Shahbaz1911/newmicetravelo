@@ -626,12 +626,18 @@ pre code {
   margin-left: auto;
 }
 
-@media (max-width: 480px){
+@media (max-width: 600px){
   
  html , body {
   overflow-x: hidden;
  } 
   
+#row-services{
+
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
   #places{
     padding-left: 0px;
     margin-left: 90px;
@@ -651,14 +657,23 @@ pre code {
     padding-bottom: 15px;
 
 }
+.content h1{
+      padding-top: 180px;
+}
 
 
 .content{
   text-align: center;
   padding-right: 60px;
+      padding-top: 200px;
+    padding-bottom: 200px;
+
 }
+/* #con {
+  margin-top: 30px;
+} */
 #row-services{
-      margin-left: 120px;
+      margin-left: 0px;
       display: flex;
       flex-wrap: wrap;
 }
@@ -670,6 +685,8 @@ pre code {
   width: 850px;
   position: absolute;
   padding-right: 450px;
+  padding-left: 0px;
+    padding-right: 480px;
 }
 #ut{
   color: grey;
@@ -12073,7 +12090,7 @@ textarea.form-control {
   color: #fff;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  padding-top: 100px;
+  padding-top: 180px;
 }
 
 .content a {
